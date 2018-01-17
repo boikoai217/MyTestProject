@@ -22,17 +22,17 @@ body {
 
 /* Измените цвет связей на hover */
 .topnav a:hover {
-  background-color: #fa000e;
+  background-color: #f8cffa;
   color: black;
 }
 
-/* Добавьте активный класс, чтобы подчеркнуть текущую страницу */
+/* Наведение на объект */
 .active {
-  background-color: #15af1d;
+  background-color: #6e90ff;
   color: white;
 }
 
-/* Скройте связь, которая должна открыть и закрыть topnav на маленьких экранах */
+/* Должна открыть и закрыть topnav на маленьких экранах */
 .topnav .icon {
   display: none;
 }
