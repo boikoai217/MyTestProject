@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script type="text/javascript">
+//*****Задание 1*****
+  	/*var n = prompt("Введите число, в интервале (-7;11] или [22;33])");
+  	if ((n>-7 && n<=11) || (n>=22 && n<=33)) 
+  		{
+  			 document.write(Math.abs(n));
+  		}
+	else
+		{
+			document.write("Число не входит в интервал");
+		}
+	*/	
+//*****Задание 2*****
+	/*var min = prompt("Введите кол-во минут разговора");
+	var dayOfWeek = prompt("Введите день недели (1-понедельник ...)");
+	var cost = 0;
+	if(dayOfWeek == 6 || dayOfWeek == 7)
+  		{
+  			cost = min * 5 * 0.20;
+  		}
+  	else
+	  	{
+	  		cost = min * 5;
+	  	}
+  	document.write("С вас: " + cost);
+  	*/
+//*****Задание 3*****
+	/*var a = "qweqweqweQWEqwe@";
+	var bq = 0;
+	for (var i = 0 ; a[i] != "@" ; i++){ 
+	switch (a[i]) {
+		case 'q':
+		bq=bq+1
+		break;
+
+		case 'w':
+		bq=bq+1
+		break;
+
+		case 'e':
+		bq=bq+1
+		break;
+
+		case 'r':
+		bq=bq+1
+		break;
+
+		case 't':
+		bq=bq+1
+		break;
+
+		case 'y':
+		bq=bq+1
+		break;
+
+		case 'u':
+		bq=bq+1
+		break;
+
+		case 'i':
+		bq=bq+1
+		break;
+
+		case 'o':
+		bq=bq+1
+		break;
+
+		case 'p':
+		bq=bq+1
+		break;
+
+		case 'a':
+		bq=bq+1
+		break;
+
+		case 's':
+		bq=bq+1
+		break;
+
+		case 'd':
+		bq=bq+1
+		break;
+		case 'f':
+		bq=bq+1
+		break;
+
+		case 'g':
+		bq=bq+1
+		break;
+
+		case 'h':
+		bq=bq+1
+		break;
+
+		case 'j':
+		bq=bq+1
+		break;
+
+		case 'k':
+		bq=bq+1
+		break;
+
+		case 'l':
+		bq=bq+1
+		break;
+
+		case 'z':
+		bq=bq+1
+		break;
+
+		case 'x':
+		bq=bq+1
+		break;
+
+		case 'c':
+		bq=bq+1
+		break;
+
+		case 'v':
+		bq=bq+1
+		break;
+
+		case 'b':
+		bq=bq+1
+		break;
+
+		case 'n':
+		bq=bq+1
+		break;
+
+		case 'm':
+		bq=bq+1
+		break;
+		} 
+	}
+	document.write(bq);*/
+//*****Задание 4*****
+	
+	//Код работает, нужно только вводить уже делённые числа
+	/*while(true)
+		{
+			var pair1 = prompt("Введите первое число (дробные числа вводите с точкой)");
+			if(pair1 == 0)
+				{
+					document.write("Ввод остановлен");
+					break;
+				}
+
+			var pair2 = prompt("Введите второе число (дробные числа вводите с точкой");
+			if(pair2 == 0)
+				{
+					document.write("Ввод остановлен");
+					break;
+				}
+
+			else{
+				onMutuallyInverse();
+				break;
+			}
+		} 
+	function onMutuallyInverse()
+		{
+			if ((pair1 * pair2) == 1) 
+				{
+					//return true;
+					document.write("true");
+				}
+			else 
+				{
+					return false;
+					document.write("false");
+				}
+		}*/
+//*****Задание 5*****
+	var sum = 0;
+	var a = prompt("Введите число А");
+	var b = prompt("Введите число Б");
+	var c = prompt("Введите число С");
+	var inMo = prompt("Введите число минут за месяц");
+
+	SuminM();
+
+	function SuminM()
+		{
+			if (inMo <= a) 
+				{
+					sum = b * inMo;
+				}
+			else
+			{
+				sum = b * a + c * ( inMo - a );
+			}
+			document.write("Вы должны оплатить: " + sum + " рублей")
+		}
+</script>
+
+</body>
+</html>
